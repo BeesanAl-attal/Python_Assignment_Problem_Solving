@@ -38,7 +38,7 @@ zero_element_in_econd_element_in_first_element_in_third_element = second_element
 print(zero_element_in_econd_element_in_first_element_in_third_element)
 
 # Q5 : d1 = {'k1':[1,2,3,{'tricky':['oh','man','inception',{'target':[1,2,3,'hello']}]}]}
-# here the nesting consistes of dict -> list -> dict -> list -> dict -> list in this exact arrange 
+# here the "nesting" consistes of dict -> list -> dict -> list -> dict -> list in this exact order  
 # so we need to dig through this dict using the above map 
 # note that when you use the fuction .values the returned value type is dict_valued and you can not use indexing with that 
 # so to get the value with its exact data type use the key to navigate through the dictionary 
